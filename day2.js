@@ -71,3 +71,14 @@ let number1 = 5;
 let number2 = 4;
 
 console.log(giveSum(number1, number2));
+
+/* Assignment: Create a function that checks if a given string is a palindrome. */
+
+function checkPal(str) {
+  let reverseWord = str.split("").reverse().join("");
+  return reverseWord === str;
+}
+
+let str = "bohb";
+
+console.log(checkPal(str));
